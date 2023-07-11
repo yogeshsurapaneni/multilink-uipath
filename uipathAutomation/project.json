@@ -1,13 +1,12 @@
 {
-  "name": "multilink-Ui-Path",
-  "projectId": "b83461d1-7714-46e8-b228-1ec4e5dd750a",
+  "name": "uipathAutomation",
+  "projectId": "ca2aa969-4117-476f-806b-eea8635b1d31",
   "description": "",
   "main": "Main.xaml",
   "dependencies": {
-    "System.Xml.ReaderWriter": "4.3.1",
     "UiPath.Excel.Activities": "[2.21.0-preview]",
     "UiPath.Mail.Activities": "[1.20.2]",
-    "UiPath.Python.Activities": "1.6.0",
+    "UiPath.Python.Activities": "[1.6.0]",
     "UiPath.System.Activities": "[23.6.0-preview]",
     "UiPath.Testing.Activities": "[23.6.0-preview]",
     "UiPath.UIAutomation.Activities": "[23.6.1-preview]"
@@ -16,7 +15,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.6.1.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -52,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "1c468944-3585-4ebf-81b5-61f39783409a",
+      "uniqueId": "35ca6542-f156-4713-9f4b-7a98e1405b18",
       "input": [],
       "output": []
     }
@@ -60,5 +59,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Legacy"
 }
