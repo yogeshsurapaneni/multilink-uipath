@@ -1,0 +1,1 @@
+UiRobot.exe execute .\Main.xaml
