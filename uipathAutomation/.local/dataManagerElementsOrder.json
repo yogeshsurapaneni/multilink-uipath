@@ -15,6 +15,20 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
+    },
+    {
+      "Path": "Readynet.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pyVar&Sequence_7",
+        "respy&Sequence_7",
+        "enddatatable&Sequence_7",
+        "primaryDataFileExists&Sequence_1",
+        "ExtractDataTable&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
     }
   ]
 }
