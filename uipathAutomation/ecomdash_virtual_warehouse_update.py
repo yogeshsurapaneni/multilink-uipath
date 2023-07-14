@@ -1,10 +1,18 @@
+import shutil
+
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, date, timedelta
 import os
 import re
 
+def cleanReports():
+    yesterdaydate = (date.today() - timedelta(days=1)).strftime('%m%d%Y')
+    if os.path.exists("Reports/"+yesterdaydate):
+        shutil.rmtree("Reports/"+yesterdaydate)
+
+cleanReports()
 def inventory_update():
-    df=pd.read_csv('primaryData.csv', on_bad_lines='skip')
+    df=pd.read_csv('primaryData.csv')
     finaldf=pd.DataFrame(columns=['SKU Number','Warehouse Quantity'],index=None)
 
     for i in range(len(df)):
@@ -46,7 +54,11 @@ def inventory_update():
                     utahStock = int(df['Stock in Utah'][i].split(':',1)[1].split(' ',1)[1])
 
         combinedStock=ohioStock+utahStock
-        finaldf.loc[i] = [sku,combinedStock]
+        if combinedStock >= 100:
+            cappedStock=100
+        else:
+            cappedStock=combinedStock
+        finaldf.loc[i] = [sku,cappedStock]
         i=+1
     brand=df['name'][0].split(' ',2)[0]
     date=datetime.now().strftime("%m%d%Y")
