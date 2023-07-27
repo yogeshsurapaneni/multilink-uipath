@@ -72,17 +72,6 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "MikroTik.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "ExtractDataTable&Sequence_1",
-        "primaryDataFileExists&Sequence_1"
-      ],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
       "Path": "MimosaNetworks.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
@@ -130,9 +119,8 @@
       "Path": "Shireen.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "ExtractDataTable&Sequence_25",
-        "primaryDataFileExists&Sequence_1",
-        "ExtractDataTable&Sequence_1"
+        "ExtractDataTable&Sequence_1",
+        "primaryDataFileExists&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": null,
@@ -142,7 +130,51 @@
       "Path": "Teltonika.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "ExtractDataTable&Sequence_27",
+        "ExtractDataTable&Sequence_1",
+        "primaryDataFileExists&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Vilo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1",
+        "primaryDataFileExists&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Yealink.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1",
+        "primaryDataFileExists&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Mikrotik.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1",
+        "primaryDataFileExists&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MikrotikWithPrice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "streakwaveLogin&Sequence_3",
         "primaryDataFileExists&Sequence_1",
         "ExtractDataTable&Sequence_1"
       ],
